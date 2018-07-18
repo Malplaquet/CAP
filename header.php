@@ -9,41 +9,18 @@
 </head>
 <body>
   <div id="page" class="">
-    <div class="">
-      <?php get_sidebar(); ?>
-    </div>
-    <nav id="top-nav">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-1">
-            <!-- menu bouton hamburger -->menu bouton hamburger
-          </div>
-          <div class="col-2">
-            <!-- barre de recherche -->barre de recherche
-          </div>
-          <div class="col-4">
-            <!-- lien vers le site CRCE --> lien vers le site CRCE
-          </div>
-          <div class="col-2">
-            <!-- boutons réseaux sociaux --> boutons réseaux sociaux
-          </div>
-          <div class="col-3">
-            <!-- nous contacter --> nous contacter
-          </div>
-        </div>
-      </div>
-    </nav>
     <div id="header">
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-6">
-            <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-6">
-            <p class="description"><?php bloginfo('description'); ?></p>
-          </div>
-        </div>
+      <?php get_sidebar(); ?>
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-6">
+        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
       </div>
     </div>
+    <div class="row justify-content-around">
+      <div class="col-6">
+        <p class="description"><?php bloginfo('description'); ?></p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -5,14 +5,9 @@ get_header();
   <div class="container">
     <div class="row align-items-center">
       <?php if (have_posts()) : while (have_posts()) : the_post();?>
-        <div class="col-3 thumbnails">
+        <div class="col-4 thumbnails">
           <?php the_post_thumbnail('miniature-article');?>
-        </div>
-        <div class="col-9">
-          <div id="post-<?php the_ID(); ?>" class="post">
-            <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-            <span class="post_content"><?php the_excerpt(); ?></span>
-          </div>
+          <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
         </div>
         <?php
       endwhile;

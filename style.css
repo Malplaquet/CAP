@@ -43,9 +43,20 @@ a:hover {
 .logo-contact-us {
   height: 1.5em;
 }
+.lieu {
+  border: double black;
+  text-align: center;
+  margin: 2em;
+  padding: 1em;
+  background-color: rgb(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
 #page {
   background-image: url('img/liquidateurs.jpg');
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .logohda {
   padding: 3em 0 10em 0;
@@ -69,6 +80,11 @@ h1 {
   margin: auto;
   padding: 2em;
   position: -100vh;
+}
+.title_category {
+  font-weight: bold;
+  font-size: 2em;
+  color: blue;
 }
 .thumbnails{
   display: flex;

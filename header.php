@@ -14,6 +14,14 @@
       <?php get_sidebar(); ?>
       <div class="container">
         <div class="row justify-content-around">
+          <div class="col-3">
+            <a href="#"><p class="lieu">Le Sénat</p></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><p class="lieu">Sur le terrain</p></a>
+          </div>
+        </div>
+        <div class="row justify-content-around">
           <div class="col-6 text-center">
             <a href="<?php bloginfo('url'); ?>"><img class="logohda" src="<?php echo THEME_IMG_PATH; ?>/logo.svg" alt="l'Humain d'abord ! au Coeur de la République"></a>
           </div>

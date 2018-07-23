@@ -59,11 +59,11 @@ a:hover {
   background-size: contain;
 }
 .logohda {
-  padding: 3em 0 10em 0;
+  margin-top: 12em;
 }
 h1 {
   text-align: center;
-  padding-bottom: 5em;
+  margin: 1em 0;
   font: "Open San", sans-serif;
   color: white;
   letter-spacing: 0.2em;
@@ -79,7 +79,6 @@ h1 {
   background-color: white;
   margin: auto;
   padding: 2em;
-  position: -100vh;
 }
 .title_category {
   font-weight: bold;
@@ -90,4 +89,24 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.read-more {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ed1d32;
+  color: white;
+}
+#footer {
+  margin-top: 5em;
+  padding: 3em 0;
+  background-color: #948f84;
+  text-transform: uppercase;
+}
+.title-footer {
+  text-transform: none;
+}
+.chevron-footer {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #ed1d32;
 }

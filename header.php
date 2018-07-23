@@ -15,10 +15,10 @@
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-3">
-            <a href="#"><p class="lieu">Le Sénat</p></a>
+            <a href="/CAP/senat/"><p class="lieu">Le Sénat</p></a>
           </div>
           <div class="col-3">
-            <a href="#"><p class="lieu">Sur le terrain</p></a>
+            <a href="/CAP/circo"><p class="lieu">Sur le terrain</p></a>
           </div>
         </div>
         <div class="row justify-content-around">

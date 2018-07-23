@@ -1,3 +1,4 @@
+<!-- SUPPRIMER TOUS LES /CAP lors de la mise en ligne-->
 <?php
 get_header();
 ?>
@@ -13,18 +14,17 @@ get_header();
         while ($query_mobilisation->have_posts()) :
           $query_mobilisation->the_post();
           ?>
-          <div class="col-4 thumbnails">
-            <?php the_post_thumbnail('miniature-article');?>
-            <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+          <div class="col-4">
+            <a class="thumbnails" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('miniature-article');?><h3><?php the_title(); ?></h3></a>
           </div>
           <?php
         endwhile;
       endif;
       ?>
     </div>
-    <div class="row align-items-center">
-      <div class="col-3">
-        
+    <div class="row justify-content-center">
+      <div class="col-2">
+        <a href="/CAP/mobilisation/"><p class="read-more">Voir les autres mobilisations</p></a>
       </div>
     </div>
     <div>
@@ -37,14 +37,18 @@ get_header();
         while ($query_interv->have_posts()) :
           $query_interv->the_post();
           ?>
-          <div class="col-4 thumbnails">
-            <?php the_post_thumbnail('miniature-article');?>
-            <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+          <div class="col-4">
+            <a class="thumbnails" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('miniature-article');?><h3><?php the_title(); ?></h3></a>
           </div>
           <?php
         endwhile;
       endif;
       ?>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-2">
+        <a href="/CAP/interv/"><p class="read-more">Lire la suite</p></a>
+      </div>
     </div>
     <div>
       <h2 class="title_category">Questions</h2>
@@ -56,14 +60,18 @@ get_header();
         while ($query_question->have_posts()) :
           $query_question->the_post();
           ?>
-          <div class="col-4 thumbnails">
-            <?php the_post_thumbnail('miniature-article');?>
-            <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+          <div class="col-4">
+            <a class="thumbnails" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('miniature-article');?><h3><?php the_title(); ?></h3></a>
           </div>
           <?php
         endwhile;
       endif;
       ?>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-2">
+        <a href="/CAP/question/"><p class="read-more">Lire la suite</p></a>
+      </div>
     </div>
     <div>
       <h2 class="title_category">Revue de Presse</h2>
@@ -75,20 +83,21 @@ get_header();
         while ($query_press->have_posts()) :
           $query_press->the_post();
           ?>
-          <div class="col-4 thumbnails">
-            <?php the_post_thumbnail('miniature-article');?>
-            <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+          <div class="col-4">
+            <a class="thumbnails" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('miniature-article');?><h3><?php the_title(); ?></h3></a>
           </div>
           <?php
         endwhile;
       endif;
       ?>
     </div>
-    <div class="navigation">
-      <div class="alignleft"><?php posts_nav_link('','','&laquo; Previous Entries') ?></div>
-      <div class="alignright"><?php posts_nav_link('','Next Entries &raquo;','') ?></div>
+    <div class="row justify-content-center">
+      <div class="col-2">
+        <a href="/CAP/press"><p class="read-more">Lire la suite</p></a>
+      </div>
     </div>
   </div>
+</div>
   <?php
   get_footer();
   ?>

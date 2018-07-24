@@ -4,6 +4,24 @@ get_header();
 ?>
 <div id="content">
   <div class="container">
+    <div class="row">
+      <h2>Sur les réseaux sociaux</h2>
+    </div>
+    <div class="row justify-content-around">
+      <div id="fb-sidebar" class="col-4">
+        <?php
+        if ( dynamic_sidebar('fb-sidebar') ) :
+        endif;
+        ?>
+      </div>
+      <div id="twitter-sidebar" class="col-4">
+        <?php
+        if ( dynamic_sidebar('twitter-sidebar') ) :
+        endif;
+        ?>
+
+      </div>
+    </div>
     <div>
       <h2 class="title_category">Mobilisations</h2>
     </div>

@@ -71,14 +71,17 @@ h1 {
   font-size: 3em;
   font-weight: bold;
 }
-.description{
-  text-align: center;
-}
 #content {
   width: 80%;
   background-color: white;
   margin: auto;
   padding: 2em;
+}
+#fb-sidebar {
+  overflow: scroll;
+}
+#twitter-sidebar {
+  overflow: scroll;
 }
 .title_category {
   font-weight: bold;

@@ -43,6 +43,11 @@ a:hover {
 .logo-contact-us {
   height: 1.5em;
 }
+#page {
+  background-image: url('img/liquidateurs.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .lieu {
   border: double black;
   text-align: center;
@@ -52,11 +57,6 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
-}
-#page {
-  background-image: url('img/liquidateurs.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 .logohda {
   margin-top: 12em;
@@ -76,6 +76,83 @@ h1 {
   background-color: white;
   margin: auto;
   padding: 2em;
+}
+.title_last_actu {
+  background-color: #ed1d32;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 1em 0 2em 0;
+  text-shadow: 1px 1px 8px black;
+}
+.mosaic_thumbnails {
+  position: relative;
+  display: block;
+  padding: 0 !important;
+}
+.mosaic_thumbnails .mosaic_title_article {
+  opacity: 0;
+}
+.thumbnail_article {
+  height: 15.5em !important;
+  background-size: cover;
+}
+.mosaic_thumbnails:hover .mosaic_title_article,
+.mosaic_thumbnails:active .mosaic_title_article {
+  opacity: 1;
+}
+.mosaic_thumbnails:hover .mosaic_category_article,
+.mosaic_thumbnails:active .mosaic_category_article {
+  display: none;
+}
+.mosaic_thumbnails .mosaic_title_article {
+  display: inline;
+  color: white;
+  background-color: #ed1d32;
+  text-transform: uppercase;
+  padding: 0.1em 0.8em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.mosaic_category_article {
+  background-color: #666699;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+  padding: 0.05em 0.8em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.mosaic_excerpt {
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0.7);
+  color: black;
+  bottom: 0;
+  right: 0;
+  font-size: 1.1em;
+  width: 80%;
+  transition: all 0.3s ease-in;
+  padding: 0 1em;
+}
+.mosaic_excerpt {
+  opacity: 0;
+}
+.mosaic_thumbnails:hover .mosaic_excerpt,
+.mosaic_thumbnails:active .mosaic_excerpt {
+  opacity: 1;
+}
+.title_social {
+  background-color: #ed1d32;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 1em 0 2em 0;
+  padding: 0 1em;
+  text-shadow: 1px 1px 8px black;
 }
 #fb-sidebar {
   overflow: scroll;
@@ -103,7 +180,6 @@ h1 {
   margin-top: 5em;
   padding: 3em 0;
   background-color: #948f84;
-  text-transform: uppercase;
 }
 .title-footer {
   text-transform: none;
@@ -112,4 +188,14 @@ h1 {
   font-weight: bold;
   font-size: 1.5em;
   color: #ed1d32;
+}
+
+/* Single.php */
+.post_title_article {
+
+}
+.post_content_article {
+  padding: 2em;
+  text-align: justify;
+  text-indent: 2em;
 }

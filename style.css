@@ -217,12 +217,6 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-.read-more {
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #ed1d32;
-  color: white;
-}
 #footer {
   margin-top: 5em;
   padding: 3em 0;
@@ -236,19 +230,72 @@ h1 {
   font-size: 1.5em;
   color: #ed1d32;
 }
-
+/* category.php */
+.postcard_category {
+  padding: 1em;
+}
+.category_title_article {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+}
+.category_content_article p {
+  text-align: justify;
+}
 /* Single.php */
+.post_category_article {
+  background-color: #666699;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+  padding: 0.2em 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0;
+}
 .post_title_article {
-
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.post_date {
+  font-size: 1em;
+  padding: 0.5em 0;
 }
 .post_content_article {
   padding: 2em;
   text-align: justify;
-  text-indent: 2em;
+  text-indent: 5em;
+  line-height: 2.3em;
+}
+.post_content_article p {
+  margin-bottom: 2em;
 }
 .col_meme_sujet {
-
+  border-left: 1px solid black;
+}
+.title_col_meme_sujet {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 1.8em;
 }
 .row_meme_sujet {
 
+}
+.thumbnail_meme_sujet {
+  height: 14em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em 0;
+  padding: 0 !important;
+}
+.title_thumbnail_meme_sujet {
+  display: inline;
+  color: white;
+  background-color: #ed1d32;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 1em;
+  padding-top: 0.05em;
 }

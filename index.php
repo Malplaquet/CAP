@@ -15,11 +15,21 @@ get_header();
       if ($query->have_posts()) :
         while ($query->have_posts()) :
           $query->the_post();
+          $categories = get_the_category();
+          $categoriesName = [];
+          // var_dump( $categories);
+          if ($categories[0]->parent != 0) {
+            $categories = array_reverse($categories);
+          }
+          foreach ($categories as $category) {
+            $categoriesName[] = $category->name;
+          }
       ?>
+
       <div class="col-4 mosaic_thumbnails">
         <a href="<?php the_permalink(); ?>">
           <div class="thumbnail_article" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
-            <p class="mosaic_category_article">catégorie | sous catégorie<?= get_category_parents( 'get_cat_ID();', false, ' | '); ?></p>
+            <p class="mosaic_category_article"><?= implode( ' | ',$categoriesName); ?></p>
             <p class="mosaic_title_article"><?php the_title(); ?></p>
             <div class="mosaic_excerpt"><?= the_excerpt(); ?></div>
           </div>

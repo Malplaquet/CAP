@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #aaa69d;
+  background-color: #d2dae2;
 }
 a {
   text-decoration: none;
@@ -26,6 +26,13 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0.3em 1em rgb(45, 52, 54, 0.6);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 .hamburger{
   position: absolute;
@@ -220,7 +227,8 @@ h1 {
 #footer {
   margin-top: 5em;
   padding: 3em 0;
-  background-color: #948f84;
+  background-color: #657381;
+  color: black;
 }
 .title-footer {
   text-transform: none;
@@ -229,6 +237,9 @@ h1 {
   font-weight: bold;
   font-size: 1.5em;
   color: #ed1d32;
+}
+.logo-contact-footer {
+  height: 2em;
 }
 /* category.php */
 .postcard_category {

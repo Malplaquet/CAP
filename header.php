@@ -30,7 +30,6 @@
         <div class="row justify-content-around">
           <div class="col-10">
             <h1>Cathy Apourceau-Poly</h1>
-            <!--<h1 class="description"><?php /* bloginfo('description'); */?></h1>-->
           </div>
         </div>
       </div>

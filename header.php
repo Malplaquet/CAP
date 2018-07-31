@@ -13,6 +13,13 @@
   <div id="page" class="">
     <div id="header">
       <?php get_sidebar(); ?>
+      <div id="myCarousel" class="carousel slide carousel-fade">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+      </div>
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-3">

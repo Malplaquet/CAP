@@ -97,10 +97,113 @@ a:hover {
 .logo-contact-us {
   height: 1.5em;
 }
-#page {
-  background-image: url('img/liquidateurs.jpg');
+/*#page {
+  background-image: url('img/2018-0592-028-CL-redim.jpg');
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: 3% -13%;
+}*/
+/*.carousel {
+  z-index: -99;
+}
+.carousel .item {
+  height: 800px;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.carousel .one {
+  background: url('img/2018-0592-028-CL-redim.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+}
+.carousel .two {
+  background: url('img/2018-0592-007-CL.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.carousel .three {
+  background: url('img/2018-0592-023-CL.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.carousel .active.left {
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+}*/
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.item:nth-child(1) {
+    background: url('img/2018-0592-028-CL-redim.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background: url('img/2018-0592-007-CL.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(3) {
+    background: url('img/2018-0592-023-CL.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel {
+    z-index: -99;
+}
+.carousel .item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 .lieu {
   border: double black;
@@ -113,11 +216,11 @@ a:hover {
   font-weight: bold;
 }
 .logohda {
-  margin-top: 12em;
+  margin-top: 8em;
 }
 h1 {
   text-align: center;
-  margin: 1em 0;
+  margin: 2em 0;
   font: "Open San", sans-serif;
   color: white;
   letter-spacing: 0.2em;
@@ -238,8 +341,8 @@ h1 {
   font-size: 1.5em;
   color: #ed1d32;
 }
-.logo-contact-footer {
-  height: 2em;
+.row-contact-footer {
+  margin: 1em 0;
 }
 /* category.php */
 .postcard_category {

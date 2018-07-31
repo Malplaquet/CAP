@@ -44,7 +44,7 @@
         <a href="#"><p><span class="chevron-footer">&gt;</span>Site du Sénat</p></a>
         <a href="#"><p><span class="chevron-footer">&gt;</span>Site de l'Assemblée nationale</p></a>
         <a href="#"><p><span class="chevron-footer">&gt;</span>Site de Légifrance</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Site du CRC</p></a>
+        <a href="#"><p><span class="chevron-footer">&gt;</span>Site du GDR</p></a>
       </div>
     </div>
   </div>

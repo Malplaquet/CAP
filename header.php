@@ -12,15 +12,26 @@
   <script src="/CAP/wp-content/themes/blogCathy/sticky.js"></script>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
   <div id="page" class="">
     <div id="header">
       <?php get_sidebar(); ?>
-      <div id="carousel-slider" class="ez-slide">
-        <div class="slide slide-one" slider="carousel-slider" style="--n: 0"></div>
-        <div class="slide slide-two" slider="carousel-slider" style="--n: 0"></div>
-        <div class="slide slide-three" slider="carousel-slider" style="--n: 0"></div>
+      <div class="slider-container-absolute">
+        <div id="carousel-slider" class="ez-slide">
+          <div class="slide slide-one" slider="carousel-slider" style="--n: 0"></div>
+          <div class="slide slide-two" slider="carousel-slider" style="--n: 0"></div>
+          <div class="slide slide-three" slider="carousel-slider" style="--n: 0"></div>
+        </div>
       </div>
-      <div class="container">
+      <div class="container info-bannière">
         <div class="row justify-content-around">
           <div class="col-3">
             <a href="/CAP/senat/"><p class="lieu">Le Sénat</p></a>
@@ -36,7 +47,7 @@
         </div>
         <div class="row justify-content-around">
           <div class="col-10">
-            <h1>Cathy Apourceau-Poly</h1>
+            <h1 class="">Cathy Apourceau-Poly</h1>
           </div>
         </div>
       </div>

@@ -53,6 +53,20 @@ get_header();
       endwhile;
     endif;
     ?>
+    <div class="row cloud-tag-container justify-content-center">
+      <p class="cloud-tag-title">Retrouvez nos articles par étiquettes :</p>
+      <div class="cloud-tag-post">
+        <?php
+        $argsCloudTag = array(
+          'smallest' => 12,
+          'largest' => 25,
+          'unit' => 'pt',
+          'separator' => ' ',
+        );
+        wp_tag_cloud($argsCloudTag);
+        ?>
+      </div>
+    </div>
   </div>
 </div>
 </div>

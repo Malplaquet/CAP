@@ -4,8 +4,10 @@ get_header();
 <div id="content" class="">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <?php the_category('', 'single'); ?>
+      <div class="title-tag">
+        <?php
+        single_tag_title('Étiquette : ', 'true');
+         ?>
       </div>
     </div>
     <div class="row align-items-center postcard-container">

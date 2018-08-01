@@ -24,37 +24,37 @@ get_header();
           foreach ($categories as $category) {
             $categoriesName[] = $category->name;
           }
-      ?>
+          ?>
 
-      <div class="col-4 mosaic_thumbnails">
-        <a href="<?php the_permalink(); ?>">
-          <div class="thumbnail_article" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
-            <p class="mosaic_category_article"><?= implode( ' | ',$categoriesName); ?></p>
-            <p class="mosaic_title_article"><?php the_title(); ?></p>
-            <div class="mosaic_excerpt"><?= the_excerpt(); ?></div>
+          <div class="col-4 mosaic_thumbnails">
+            <a href="<?php the_permalink(); ?>">
+              <div class="thumbnail_article" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
+                <p class="mosaic_category_article"><?= implode( ' | ',$categoriesName); ?></p>
+                <p class="mosaic_title_article"><?php the_title(); ?></p>
+                <div class="mosaic_excerpt"><?= the_excerpt(); ?></div>
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-    <?php
-    endwhile;
-    endif;
-    ?>
+          <?php
+        endwhile;
+      endif;
+      ?>
     </div>
     <div class="row justify-content-center">
       <p class="title_social">Sur les réseaux sociaux</p>
     </div>
-    <div class="row justify-content-around">
-      <div id="fb-sidebar" class="col-4">
-        <?php
-        if ( dynamic_sidebar('fb-sidebar') ) :
-        endif;
-        ?>
+    <div class="row justify-content-center">
+      <div class="col-5">
+        <div class="fb-page" data-href="https://www.facebook.com/CathyApourceauPolySenatrice/" data-tabs="timeline" data-width="400" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/CathyApourceauPolySenatrice/" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/CathyApourceauPolySenatrice/">Cathy Apourceau Poly, Sénatrice du Pas-de-Calais</a>
+          </blockquote>
+        </div>
       </div>
-      <div id="twitter-sidebar" class="col-4">
-        <?php
-        if ( dynamic_sidebar('twitter-sidebar') ) :
-        endif;
-        ?>
+      <div class="col-5">
+        <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/Apourceau?ref_src=twsrc%5Etfw">Tweets by Apourceau</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+        </script>
       </div>
     </div>
   </div>

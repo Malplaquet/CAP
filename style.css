@@ -223,7 +223,7 @@ h1 {
   opacity: 1;
 }
 .title_social {
-  background-color: #ed1d32;
+  background-color: #8e44ad;
   text-transform: uppercase;
   font-size: 2em;
   color: white;
@@ -232,17 +232,6 @@ h1 {
   margin: 1em 0 2em 0;
   padding: 0 1em;
   text-shadow: 1px 1px 8px black;
-}
-#fb-sidebar {
-  overflow: scroll;
-}
-#twitter-sidebar {
-  overflow: scroll;
-}
-.title_category {
-  font-weight: bold;
-  font-size: 2em;
-  color: blue;
 }
 .thumbnails{
   display: flex;
@@ -255,6 +244,13 @@ h1 {
   background-color: #657381;
   color: black;
 }
+.container_footer {
+  max-width: 100vw !important;
+  background-color: #d2dae2;
+  box-shadow: 1em 1em #6ab04c;
+  margin: 1em;
+  padding: 1em;
+}
 .title-footer {
   text-transform: none;
 }
@@ -266,7 +262,18 @@ h1 {
 .row-contact-footer {
   margin: 1em 0;
 }
+.logo_footer {
+  height: 2em;
+}
 /* category.php */
+.title_category {
+  color: white;
+  background-color: #666699;
+  text-transform: uppercase;
+  padding: 0.1em 0.8em;
+  font-size: 2.3em;
+  font-weight: bold;
+}
 .postcard-container {
   border-bottom: solid 1px black;
 }
@@ -285,7 +292,7 @@ h1 {
 
 }
 .cloud-tag-title {
-  background-color: #20bf6b; /* #6ab04c */
+  background-color: #6ab04c;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -300,7 +307,7 @@ h1 {
 }
 /* tag.php */
 .title-tag {
-  background-color: #20bf6b; /* #6ab04c */
+  background-color: #6ab04c;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -316,7 +323,7 @@ h1 {
   text-transform: uppercase;
   display: inline;
   padding: 0.2em 1em;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
   margin: 1em 0;
 }

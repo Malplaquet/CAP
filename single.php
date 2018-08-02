@@ -21,6 +21,7 @@ get_header();
           <?php the_title(); ?>
         </div>
         <p class="post_date"><?php the_date('', 'Article publié le ', '.'); ?></p>
+        <?php the_tags(); ?>
         <div id="post-<?php the_ID(); ?>" class="post_content_article">
           <?php the_content(); ?>
         </div>
@@ -37,15 +38,29 @@ get_header();
     </div>
     <!-- LOOP avec articles à afficher selon étiquettes correspondantes -->
     <?php
-    $query = new WP_Query( array('posts_per_page' => 4, 'orderby' => 'date', 'order' => 'DESC' ) );
-    if ($query->have_posts()) :
-      while ($query->have_posts()) :
-        $query->the_post();
+    $tags = get_the_tags();
+    if ($tags) {
+      foreach ($tags as $tag ) {
+        $count++;
+        while ($tags < $count) {
+          $tagList = $tag->name . ',';
+        }
+      }
+    }
+    $queryByTags = new WP_Query( array( 'tag' => $tagList, 'posts_per_page' => 4 ));
+    /*<?php
+    $query = new WP_Query( array('posts_per_page' => 4, 'orderby' => 'date', 'order' => 'DESC' ) );*/
+    if ($queryByTags->have_posts()) :
+      while ($queryByTags->have_posts()) :
+        $queryByTags->the_post();
         ?>
         <div class="row justify-content-center row_meme_sujet">
-          <div class="col-10 thumbnail_meme_sujet" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
+          <div class="col-10">
+            <?= $tagList ?>
             <a href="<?php the_permalink(); ?>">
-              <p class="title_thumbnail_meme_sujet"><?php the_title(); ?></p>
+              <div class="thumbnail_meme_sujet" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
+                <p class="title_thumbnail_meme_sujet"><?php the_title(); ?></p>
+              </div>
             </a>
           </div>
         </div>

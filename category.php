@@ -19,11 +19,11 @@ get_header();
       <div class="col-6 postcard_category">
         <a class="category_content_article" href="<?php the_permalink(); ?>">
           <div class="row">
-            <div class="col-5">
-              <img class="img-fluid" src="<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>" alt="">
+            <div class="col-6 category_thumbnail_container">
+              <img class="img-fluid category_size_thumbnail " src="<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>" alt="">
             </div>
-            <div class="col-7">
-              <span class="category_title_article"><?php the_title(); ?></span>
+            <div class="col-6">
+              <div class="category_title_article"><?php the_title(); ?></div>
             </div>
           </div>
           <?php the_excerpt(); ?>

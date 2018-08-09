@@ -3,11 +3,12 @@
     <div class="row justify-content-center container_footer">
       <div class="col-3">
         <h2 class="title-footer">Nous découvrir</h2>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Mentions légales</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Nous contacter</p></a>
-        <a href="/CAP/circo/"><p><span class="chevron-footer">&gt;</span>Nos actions locales</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>L'agenda des rencontres</p></a>
-        <a href=""><p><span class="chevron-footer">&gt;</span>Découvrir la sénatrice</p></a>
+        <a href="/CAP/contact-us/"><p><span class="chevron-footer">&gt;</span>Nous contacter</p></a>
+        <a href="/CAP/mobilisation/"><p><span class="chevron-footer">&gt;</span>Nos actions locales</p></a>
+        <a href="/CAP/wp-content/themes/blogCathy/"><p><span class="chevron-footer">&gt;</span>L'agenda des rencontres</p></a>
+        <a href="/CAP/equipe-parlementaire.php"><p><span class="chevron-footer">&gt;</span>Découvrir la sénatrice</p></a>
+        <a href="/CAP/mentions-legales.php"><p><span class="chevron-footer">&gt;</span>Mentions légales</p></a>
+        <a href="/CAP/politics.php"><p><span class="chevron-footer">&gt;</span>Politique de confidentialité</p></a>
       </div>
       <div class="col-3">
         <div class="contacts-permanence">
@@ -41,18 +42,18 @@
       </div>
       <div class="col-3">
         <h2 class="title-footer">Le travail parlementaire</h2>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Médiathèque</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Interventions au Sénat</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Questions au gouvernement</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Courriers</p></a>
+        <a href="/CAP/media/"><p><span class="chevron-footer">&gt;</span>Médiathèque</p></a>
+        <a href="/CAP/interv/"><p><span class="chevron-footer">&gt;</span>Interventions au Sénat</p></a>
+        <a href="/CAP/question/"><p><span class="chevron-footer">&gt;</span>Questions au gouvernement</p></a>
+        <a href="/CAP/courrier"><p><span class="chevron-footer">&gt;</span>Courriers</p></a>
       </div>
       <div class="col-3">
         <h2 class="title-footer">Aller plus loin</h2>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Site du CRCE</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Site du Sénat</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Site du GDR</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Site de l'Assemblée nationale</p></a>
-        <a href="#"><p><span class="chevron-footer">&gt;</span>Site de Légifrance</p></a>
+        <a href="https://senateurscrce.fr/"><p><span class="chevron-footer">&gt;</span>Site du CRCE</p></a>
+        <a href="http://www.senat.fr/"><p><span class="chevron-footer">&gt;</span>Site du Sénat</p></a>
+        <a href="http://www.communistes-republicains-partidegauche.assemblee-nationale.fr/"><p><span class="chevron-footer">&gt;</span>Site du GDR</p></a>
+        <a href="http://www.assemblee-nationale.fr/"><p><span class="chevron-footer">&gt;</span>Site de l'Assemblée nationale</p></a>
+        <a href="https://www.legifrance.gouv.fr/"><p><span class="chevron-footer">&gt;</span>Site de Légifrance</p></a>
       </div>
     </div>
   </div>
@@ -61,6 +62,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 <script src="/CAP/wp-content/themes/blogCathy/jquery-3.3.1.js"></script>
 <script src="/CAP/wp-content/themes/blogCathy/hamburger.js"></script>
-<script src="/CAP/wp-content/themes/blogCathy/carousel.js"></script>
+<script src="/CAP/wp-content/themes/blogCathy/script.js"></script>
 </body>
 </html>

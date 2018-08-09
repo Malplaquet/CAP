@@ -136,20 +136,54 @@ a:hover {
   height: 1.5em;
 }
 #page {
-  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy_dominique.jpg');
+  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-andré.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0 -10%;
+  background-position: 0 -8%;
+}
+.background_senat {
+  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-senat-redim.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background_circo {
+  background-image: url('/CAP/wp-content/themes/blogCathy/img/cath-souspref.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.info-bannière {
+  margin-top: 5em;
+}
+.logo-bannière {
+  margin-top: 13em;
+}
+.link-category-bannière {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#senat:hover {
+  color: #CAD3C8;
+  text-decoration: underline dashed;
+  letter-spacing: 3px;
+}
+#circo:hover {
+  color: #CAD3C8;
+  text-decoration: underline dashed;
+  letter-spacing: 3px;
+}
+.titre-bannière {
+  margin-top: 8em;
 }
 .lieu {
-  border: double black;
   text-align: center;
-  margin: 2em;
   padding: 1em;
-  background-color: rgb(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+  color : white;
+  font-size: 1.2em;
 }
 /*.slider-container-absolute {
 position: absolute;
@@ -181,13 +215,9 @@ background-position: bottom;
 position: relative;
 z-index: 3;
 }*/
-.logohda {
-  margin-top: 8em;
-}
 h1 {
   text-align: center;
   margin: 2em 0;
-  font: "Open San", sans-serif;
   color: white;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -333,6 +363,9 @@ h1 {
   text-decoration:none;
 }
 /* category.php */
+.title_category_container {
+  padding: 2em 0;
+}
 .title_category {
   color: white;
   background-color: #666699;
@@ -359,7 +392,7 @@ h1 {
 .category_title_article {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Lato-Bold", sans-serif;
   text-align: right;
   margin: 0;
@@ -417,7 +450,7 @@ h1 {
   font-family: "Lato-Bold", sans-serif;
 }
 .post_date {
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 0.5em 0;
   font-family: "CrimsonText-Regular", sans-serif;
 }
@@ -431,6 +464,11 @@ h1 {
   margin-bottom: 2em;
   font-family: "CrimsonText-Regular", serif;
   font-size: 1.2em;
+}
+.post_tags_container {
+  padding: 2em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
 }
 .col_meme_sujet {
   border-left: 1px solid black;
@@ -462,4 +500,61 @@ h1 {
 .cloud-tag-post {
   padding: 0.5em 3em;
   text-align: justify;
+}
+/* Nous contacter */
+.title_contact-us {
+  background-color: #666699;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.2em 1em;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0;
+  font-family: "Lato-Bold", sans-serif;
+}
+.text_contact-us {
+  padding: 1em;
+  text-align: justify;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.3em;
+}
+.text_message_sent {
+  padding: 2em;
+  text-align: justify;
+  margin-bottom: 2em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.3em;
+}
+.error {
+  padding: 2em;
+  text-align: justify;
+  margin-bottom: 2em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.3em;
+}
+.forms {
+  padding: 2em;
+  text-align: justify;
+  margin-bottom: 2em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.3em;
+}
+.input_contact {
+  margin-bottom: 1em;
+}
+.captcha_container {
+  padding: 1em;
+}
+.button_container {
+  padding: 1em;
+}
+.button_contact {
+  border-radius: 0.5em;
+  background-color: #ed1d32;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+  color: white;
+}
+.button_contact:hover {
+  font-weight: bold;
 }

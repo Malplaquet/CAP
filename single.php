@@ -21,9 +21,11 @@ get_header();
           <?php the_title(); ?>
         </div>
         <p class="post_date"><?php the_date('', 'Article publié le ', '.'); ?></p>
-        <?php the_tags(); ?>
         <div id="post-<?php the_ID(); ?>" class="post_content_article">
           <?php the_content(); ?>
+        </div>
+        <div class="post_tags_container">
+          <?php the_tags(); ?>
         </div>
         <?php
       endwhile;
@@ -41,13 +43,10 @@ get_header();
     $tags = get_the_tags();
     if ($tags) {
       foreach ($tags as $tag ) {
-        $count++;
-        while ($tags < $count) {
-          $tagList = $tag->name . ',';
+          $tagList = $tag->name;
         }
       }
-    }
-    $queryByTags = new WP_Query( array( 'tag' => $tagList, 'posts_per_page' => 4 ));
+    $queryByTags = new WP_Query( array( 'tag' => $tagList, 'posts_per_page' => 5 ));
     /*<?php
     $query = new WP_Query( array('posts_per_page' => 4, 'orderby' => 'date', 'order' => 'DESC' ) );*/
     if ($queryByTags->have_posts()) :
@@ -56,7 +55,6 @@ get_header();
         ?>
         <div class="row justify-content-center row_meme_sujet">
           <div class="col-10">
-            <?= $tagList ?>
             <a href="<?php the_permalink(); ?>">
               <div class="thumbnail_meme_sujet" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
                 <p class="title_thumbnail_meme_sujet"><?php the_title(); ?></p>

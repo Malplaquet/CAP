@@ -1,5 +1,5 @@
 <nav id="top-nav">
-  <div id="stickyheader">
+  <div id="stickyheader" class="sticky">
     <span class="hamburger">&#9776; MENU</span>
     <span class="cross">&#735;</span>
     <?php

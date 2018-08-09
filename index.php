@@ -11,7 +11,7 @@ get_header();
     </div>
     <div class="row align-items-center mosaic">
       <?php
-      $query = new WP_Query(array('posts_per_page' => 9, 'orderby' => 'date', 'order' => 'DESC' ));
+      $query = new WP_Query(array('posts_per_page' => 9, 'orderby' => 'date', 'order' => 'DESC', 'paged' => get_query_var('paged') ));
       if ($query->have_posts()) :
         while ($query->have_posts()) :
           $query->the_post();
@@ -39,6 +39,14 @@ get_header();
         endwhile;
       endif;
       ?>
+    </div>
+    <div class="row">
+      <div class="">
+        <?php
+        wp_pagenavi( array( 'query' => $query ) );
+        wp_reset_postdata();
+        ?>
+      </div>
     </div>
     <div class="row justify-content-center">
       <p class="title_social">Sur les réseaux sociaux</p>

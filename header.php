@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/CAP/wp-content/themes/blogCathy/style.css">
   <link rel="shortcut icon" href="<?php echo THEME_IMG_PATH; ?>/favicon.ico">
   <script src="/CAP/wp-content/themes/blogCathy/ezSlide.js"></script>
-  <script src="/CAP/wp-content/themes/blogCathy/sticky.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
   <div id="fb-root"></div>
@@ -21,7 +21,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>
-  <div id="page">
+  <div id="page" class="">
     <div id="header">
       <?php get_sidebar(); ?>
       <div class="slider-container-absolute">
@@ -32,20 +32,18 @@
         </div>
       </div>
       <div class="container info-bannière">
-        <div class="row justify-content-around">
-          <div class="col-3">
-            <a href="/CAP/senat/"><p id="senat" class="lieu senat">Le Sénat</p></a>
+        <div class="row justify-content-around logo-bannière">
+          <div class="col-2 link-category-bannière text-center">
+            <a class="lieu" id="senat" href="/CAP/senat/">Sénat</a>
           </div>
-          <div class="col-3">
-            <a href="/CAP/circo"><p id="terrain" class="lieu terrain">Sur le terrain</p></a>
+          <div class="col-5 text-center">
+            <a href="<?php bloginfo('url'); ?>"><img class="img-fluid" src="<?php echo THEME_IMG_PATH; ?>/logo.svg" alt=""></a>
           </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-6 text-center">
-            <a href="<?php bloginfo('url'); ?>"><img class="logohda" src="<?php echo THEME_IMG_PATH; ?>/logo.svg" alt="l'Humain d'abord ! au Coeur de la République"></a>
+          <div class="col-2 link-category-bannière text-center">
+            <a class="lieu" id="circo" href="/CAP/circo/">Circonscription</a>
           </div>
         </div>
-        <div class="row justify-content-around">
+        <div class="row justify-content-around titre-bannière">
           <div class="col-10">
             <h1 class="">Cathy Apourceau-Poly</h1>
           </div>

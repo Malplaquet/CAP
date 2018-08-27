@@ -5,10 +5,10 @@
         <h2 class="title-footer">Nous découvrir</h2>
         <a href="/CAP/contact-us/"><p><span class="chevron-footer">&gt;</span>Nous contacter</p></a>
         <a href="/CAP/mobilisation/"><p><span class="chevron-footer">&gt;</span>Nos actions locales</p></a>
-        <a href="/CAP/wp-content/themes/blogCathy/"><p><span class="chevron-footer">&gt;</span>L'agenda des rencontres</p></a>
-        <a href="/CAP/equipe-parlementaire.php"><p><span class="chevron-footer">&gt;</span>Découvrir la sénatrice</p></a>
-        <a href="/CAP/mentions-legales.php"><p><span class="chevron-footer">&gt;</span>Mentions légales</p></a>
-        <a href="/CAP/politics.php"><p><span class="chevron-footer">&gt;</span>Politique de confidentialité</p></a>
+        <a href="/CAP/agenda/"><p><span class="chevron-footer">&gt;</span>L'agenda des rencontres</p></a>
+        <a href="/CAP/senatrice/"><p><span class="chevron-footer">&gt;</span>Découvrir la sénatrice</p></a>
+        <a href="/CAP/mentions-legales/"><p><span class="chevron-footer">&gt;</span>Mentions légales</p></a>
+        <a href="/CAP/politics/"><p><span class="chevron-footer">&gt;</span>Politique de confidentialité</p></a>
       </div>
       <div class="col-3">
         <div class="contacts-permanence">

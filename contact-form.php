@@ -1,9 +1,12 @@
 <?php
+/*
+Template Name: contact-form
+*/
+
 require 'recaptchalib.php';
 $siteKey = '6LfXHmkUAAAAAGIXCreNjUnq1A2a5DgI99HCQOfW';
 $secret = '6LfXHmkUAAAAAC3rqYOGDImHk5LTgs2icQM69hO6';
-?>
-<?php
+
 //If the form is submitted
 if(isset($_POST['submitted'])) {
 	$reCaptcha = new ReCaptcha($secret);
@@ -61,7 +64,9 @@ if(isset($_POST['submitted'])) {
 			$captchaError = "Vous n'avez pas rempli le verificateur anti robot.";
 		}
 	} ?>
-	<?php get_header(); ?>
+	<?php
+	get_header();
+	?>
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/scripts/contact-form.js"></script>
 	<div id="content">
 		<div class="container">

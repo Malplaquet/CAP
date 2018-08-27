@@ -501,6 +501,33 @@ h1 {
   padding: 0.5em 3em;
   text-align: justify;
 }
+
+/* senatrice.php */
+.title_page_senatrice {
+  background-color: #ed1d32;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 1em 0 2em 0;
+  font-family: "Lato-Regular", sans-serif;
+}
+.avatar_container_senatrice {
+
+}
+.avatar_senatrice {
+
+}
+.info_container_senatrice {
+
+}
+.info_senatrice {
+
+}
+.bio_container_senatrice {
+
+}
 /* Nous contacter */
 .title_contact-us {
   background-color: #666699;

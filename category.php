@@ -38,7 +38,7 @@ get_header();
   </div>
   <div class="row">
     <?php
-    wp_pagenavi( array( 'query' => $queryCat ) );
+    wp_pagenavi(/* array( 'query' => $queryCat ) */);
     wp_reset_postdata();
     ?>
   </div>

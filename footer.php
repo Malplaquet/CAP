@@ -8,7 +8,7 @@
         <a href="/CAP/agenda/"><p><span class="chevron-footer">&gt;</span>L'agenda des rencontres</p></a>
         <a href="/CAP/senatrice/"><p><span class="chevron-footer">&gt;</span>Découvrir la sénatrice</p></a>
         <a href="/CAP/mentions-legales/"><p><span class="chevron-footer">&gt;</span>Mentions légales</p></a>
-        <a href="/CAP/politics/"><p><span class="chevron-footer">&gt;</span>Politique de confidentialité</p></a>
+        <a href="/CAP/politique-de-confidentialite-des-donnees/"><p><span class="chevron-footer">&gt;</span>Politique de confidentialité</p></a>
       </div>
       <div class="col-3">
         <div class="contacts-permanence">

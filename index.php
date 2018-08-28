@@ -5,9 +5,7 @@ get_header();
 <div id="content">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-5">
-        <p class="title_last_actu">Dernières actualités</p>
-      </div>
+      <p class="title_last_actu">Dernières actualités</p>
     </div>
     <div class="row align-items-center mosaic">
       <?php
@@ -41,12 +39,10 @@ get_header();
       ?>
     </div>
     <div class="row">
-      <div class="">
-        <?php
-        wp_pagenavi( array( 'query' => $query ) );
-        wp_reset_postdata();
-        ?>
-      </div>
+      <?php
+      wp_pagenavi( array( 'query' => $query ) );
+      wp_reset_postdata();
+      ?>
     </div>
     <div class="row justify-content-center">
       <p class="title_social">Sur les réseaux sociaux</p>
@@ -66,7 +62,7 @@ get_header();
       </div>
     </div>
     <div class="row cloud-tag-container justify-content-center">
-      <p class="cloud-tag-title">Retrouvez nos articles par étiquettes :</p>
+      <p class="cloud-tag-title-index">Retrouvez nos articles par étiquettes</p>
       <div class="cloud-tag-category">
         <?php
         $argsCloudTag = array(

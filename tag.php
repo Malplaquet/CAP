@@ -32,6 +32,12 @@ get_header();
   endif;
   ?>
 </div>
+<div class="row">
+  <?php
+  wp_pagenavi();
+  wp_reset_postdata();
+  ?>
+</div>
 <div class="row cloud-tag-container justify-content-center">
   <p class="cloud-tag-title">Retrouvez nos articles par étiquettes :</p>
   <div class="cloud-tag-category">

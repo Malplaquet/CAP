@@ -23,7 +23,6 @@ get_header();
             $categoriesName[] = $category->name;
           }
           ?>
-
           <div class="col-4 mosaic_thumbnails">
             <a href="<?php the_permalink(); ?>">
               <div class="thumbnail_article" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
@@ -38,7 +37,7 @@ get_header();
       endif;
       ?>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <?php
       wp_pagenavi( array( 'query' => $query ) );
       wp_reset_postdata();

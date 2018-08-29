@@ -21,26 +21,22 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>
-  <div id="page" class="">
+  <div id="page" class="background_default">
     <div id="header">
       <?php get_sidebar(); ?>
-      <div class="slider-container-absolute">
-        <div id="carousel-slider" class="ez-slide">
-          <div class="slide slide-one" slider="carousel-slider" style="--n: 0"></div>
-          <div class="slide slide-two" slider="carousel-slider" style="--n: 0"></div>
-          <div class="slide slide-three" slider="carousel-slider" style="--n: 0"></div>
-        </div>
+      <div class="blind">
+        a
       </div>
-      <div class="container info-bannière">
+      <div class="container">
         <div class="row justify-content-around logo-bannière">
           <div class="col-2 link-category-bannière text-center">
-            <a class="lieu" id="senat" href="/CAP/senat/">Sénat</a>
+            <a class="lieu" id="senat" href="/CAP/category/senat/">Sénat</a>
           </div>
           <div class="col-5 text-center">
             <a href="<?php bloginfo('url'); ?>"><img class="img-fluid" src="<?php echo THEME_IMG_PATH; ?>/logo.svg" alt=""></a>
           </div>
           <div class="col-2 link-category-bannière text-center">
-            <a class="lieu" id="circo" href="/CAP/circo/">Circonscription</a>
+            <a class="lieu" id="circo" href="/CAP/category/circo/">Circonscription</a>
           </div>
         </div>
         <div class="row justify-content-around titre-bannière">

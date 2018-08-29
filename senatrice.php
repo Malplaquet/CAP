@@ -41,12 +41,12 @@ get_header();
               <img class="img-fluid" src="/CAP/wp-content/themes/blogCathy/img/cathy_dominique.jpg" alt="">
             </div>
             <div class="col-6 side_text_senatrice">
-              <p>Présidente de la Mission Bassin Minier, et membre de l'association des Communes Minières, elle tente, avec les moyens offerts par ces entités, d'insufler un renouveau dans le Bassin Minier qui souffre de la désindustrialisation depuis des décennies après que sa population ait offert son existence pour reconstruire la France et mener le pays sur la voie du progrès.</p>
+              <p>Présidente de la Mission Bassin Minier, et membre de l'association des Communes Minières, elle tente, avec les moyens offerts par ces entités, d'insuffler un renouveau dans le Bassin Minier qui souffre de la désindustrialisation depuis des décennies après que sa population ait offert son existence pour reconstruire la France et mener le pays sur la voie du progrès.</p>
             </div>
           </div>
           <p>Cathy Apourceau-Poly est également membre du Conseil d'Administration d'Euralens, entité qui veut dynamiser le territoire lensois par ses actions économiques, culturelles et sociales.</p>
           <p>Devenue sénatrice après la démission de Dominique Watrin, forte de son implications pour les habitants du Pas-de-Calais, elle porte haut les valeurs du territoire pour permettre à tous de vivre dans les conditions les plus décentes que peut exiger un être humain.<br />
-          Le mandat de Cathy Apourceau-Poly est consacré à poursuivre les travaux engagés par son précédesseur, notamment de défendre les services de santé publics locaux, mais aussi plus largement de défendre les services publics locaux dans leur entiéreté. Ces services publics locaux sont une veritable richesse pour nos territoires, symboles indéfectible de la présence de l'État au plus près des populations ; ils offrent accueil, écoute et services de proximité à toutes les habitants, que ce soit dans les territoires ruraux, éloignés ou dans les quartiers de nos villes.</p>
+          Le mandat de Cathy Apourceau-Poly est consacré à poursuivre les travaux engagés par son prédécesseur, notamment de défendre les services de santé publics locaux, mais aussi plus largement de défendre les services publics locaux dans leur entièreté. Ces services publics locaux sont une véritable richesse pour nos territoires, symboles indéfectible de la présence de l'État au plus près des populations ; ils offrent accueil, écoute et services de proximité à toutes les habitants, que ce soit dans les territoires ruraux, éloignés ou dans les quartiers de nos villes.</p>
         </div>
       </div>
     </div>

@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
   var circo = document.getElementById("circo");
 
   circo.addEventListener("mouseenter", function(event) {
-    circo.classList.add("background_circo");
+    page.classList.add("background_circo");
   })
-  senat.addEventListener("mouseleave", function (event) {
-    circo.classList.remove("background_circo");
+  circo.addEventListener("mouseleave", function (event) {
+    page.classList.remove("background_circo");
   })
 }
+)

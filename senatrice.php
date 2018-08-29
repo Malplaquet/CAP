@@ -19,34 +19,33 @@ get_header();
         </div>
       </div>
       <div class="col-7">
-        <p class="info_senatrice">Sénatrice du Pas-de-Calais depuis le 1<span class="exposant">er</span> juillet 2018, elle est élue à la suite de la prise de retraite de son prédécesseur, Dominique Watrin, sénateur du Pas-de-Calais de 2001 à 2018.</p>
+        <p class="info_senatrice">Sénatrice du Pas-de-Calais depuis le 1<span class="exposant">er</span> juillet 2018, elle est élue à la suite de la prise de retraite de son prédécesseur, Dominique Watrin, sénateur du Pas-de-Calais de 2011 à 2018.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         <div class="text_senatrice">
           <p>Présente dans la vie publique pour la défense des citoyens, Cathy Apourceau-Poly a engagé ses énergies tant au sein d'instances territoriales que d'associations pour les intérêts des habitants du Pas-de-Calais et du Bassin Minier.</p>
-          <p>Élue au conseil régional du Nord-Pas-de-Calais de 2004 à 2015, elle était chargée de la formation et de l'apprentissage.</p>
+          <p>Élue au conseil régional du Nord-Pas-de-Calais de 2004 à 2015, elle y a présidé la Commission Lycée, Schéma régional des formations, apprentissage, tout en étant également membre de la Commission des Finances et de la Commission des Sports.</p>
           <div class="row">
             <div class="col-7 text_senatrice side_text_senatrice">
-              <p>Ses mandats électoraux et associatifs locaux font de Cathy Apourceau-Poly une élue de terrain, proche de ses concitoyens, qui ne cesse d'apporter son soutien dans les causes qui défendent les intérêts des populations d'une région et d'un département qui ont tant apporté à la nation.</p>
+              <p>Par ses mandats électoraux et associatifs locaux, Cathy Apourceau-Poly est une élue de terrain, proche de ses concitoyens, qui ne cesse d'apporter son soutien et de défendre les intérêts des populations d'une région et d'un département qui ont tant apporté à la nation.</p>
             </div>
             <div class="col-5">
               <img class="img-fluid" src="/CAP/wp-content/themes/blogCathy/img/cathy-souspref.jpg" alt="">
             </div>
           </div>
-          <p>Conseillère municipale d'Avion, elle appuie la politique de la municipalité pour apporter davantage aux administrés de la ville.</p>
+          <p>Ainsi, comme conseillère municipale d'Avion, elle administre le CCAS pour apporter davantage de droits aux administrés de la ville.</p>
           <div class="row">
             <div class="col-6">
               <img class="img-fluid" src="/CAP/wp-content/themes/blogCathy/img/cathy_dominique.jpg" alt="">
             </div>
             <div class="col-6 side_text_senatrice">
-              <p>Présidente de la Mission Bassin Minier, et membre de l'association des Communes Minières, elle tente, avec les moyens offerts par ces entités, d'insuffler un renouveau dans le Bassin Minier qui souffre de la désindustrialisation depuis des décennies après que sa population ait offert son existence pour reconstruire la France et mener le pays sur la voie du progrès.</p>
+              <p>Présidente de la Mission Bassin Minier, et membre de l'association des Communes Minières, elle travaille à insuffler un renouveau dans le Bassin Minier qui souffre de la désindustrialisation depuis des décennies tout en étant un territoire plein d'avenirs du fait du dynamisme de ses habitants. Cathy Apourceau-Poly est également membre du Conseil d'Administration d'Euralens, entité qui veut dynamiser le territoire Lensois par ses actions économiques, culturelles et sociales.</p>
             </div>
           </div>
-          <p>Cathy Apourceau-Poly est également membre du Conseil d'Administration d'Euralens, entité qui veut dynamiser le territoire lensois par ses actions économiques, culturelles et sociales.</p>
-          <p>Devenue sénatrice après la démission de Dominique Watrin, forte de son implications pour les habitants du Pas-de-Calais, elle porte haut les valeurs du territoire pour permettre à tous de vivre dans les conditions les plus décentes que peut exiger un être humain.<br />
-          Le mandat de Cathy Apourceau-Poly est consacré à poursuivre les travaux engagés par son prédécesseur, notamment de défendre les services de santé publics locaux, mais aussi plus largement de défendre les services publics locaux dans leur entièreté. Ces services publics locaux sont une véritable richesse pour nos territoires, symboles indéfectible de la présence de l'État au plus près des populations ; ils offrent accueil, écoute et services de proximité à toutes les habitants, que ce soit dans les territoires ruraux, éloignés ou dans les quartiers de nos villes.</p>
+          <p>Devenue sénatrice après la démission de Dominique Watrin, forte de son implications pour les habitants du Pas-de-Calais, elle porte haut les valeurs du territoire : solidarité, fraternité, résistance, afin de permettre à tous de vivre dans les conditions possible dans notre République.</p>
+          <p>Cathy Apourceau-Poly à fait le choix de poursuivre les travaux engagés par Dominique Watrin, notamment de défendre l'accès à la santé publique pour tous, mais aussi plus largement l'accès à tous les services publics locaux. Ces services publics locaux sont une véritable richesse pour nos territoires, symboles indéfectibles de la présence de l'État au plus près des populations ; ils offrent accueil, écoute et services de proximité à toutes les habitants, que ce soit dans les territoires ruraux, éloignés ou dans les quartiers de nos villes.</p>
         </div>
       </div>
     </div>

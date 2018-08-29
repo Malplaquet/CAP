@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="row justify-content-around titre-bannière">
-          <div class="col-10">
+          <div class="col-12">
             <h1 class="">Cathy Apourceau-Poly</h1>
           </div>
         </div>

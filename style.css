@@ -139,13 +139,13 @@ a:hover {
   height: 1.5em;
 }
 .background_default {
-  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-andré.jpg');
+  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-CHLille.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0 -5em;
+  background-position: 0 -20em;
 }
 .background_senat {
-  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-senat-redim.jpg');
+  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-senat-min.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 -13em;
@@ -165,15 +165,12 @@ a:hover {
   align-items: center;
 }
 #senat:hover {
-  color: #6ab04c;
-  font-weight: bold;
-}
-#circo:hover {
   color: #ed1d32;
   font-weight: bold;
 }
-.titre-bannière {
-  margin-top: 6em;
+#circo:hover {
+  color: #6ab04c;
+  font-weight: bold;
 }
 .lieu {
   text-align: center;
@@ -184,14 +181,17 @@ a:hover {
   font-family: "Lato-Bold", sans-serif;
   color : white;
   font-size: 1.2em;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: solid 1px white;
+  width: 15em;
 }
 h1 {
   text-align: center;
-  margin: 2em 0;
+  margin: 3em 0 1.5em 0;
   color: white;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: bold;
   font-family: "Lato-Bold", sans-serif;
 }
@@ -314,6 +314,7 @@ h1 {
 .current {
   font-weight: bold;
   margin: 0 0.5em;
+  font-size: 1.1em;
 }
 .page {
   margin: 0 0.5em;
@@ -325,7 +326,7 @@ h1 {
   margin: 0 0.5em;
 }
 .nextpostslink:hover {
-  text-decoration: underline;
+  font-style: italic;
 }
 /* footer */
 #footer {

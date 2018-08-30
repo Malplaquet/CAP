@@ -1,0 +1,622 @@
+/*
+Theme Name: Cathy Sénat
+Author: Pierre Boufflers
+Author URI: https://cv.pierreboufflers.narramus.fr
+Description: Thème créé en juillet 2018 pour le site de Cathy Apourceau-Poly, sénatrice du Pas-de-Calais, membre du CRCE.
+Version: 1.0
+*/
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato-Italic";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/Lato/Lato-Italic.ttf");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato-BoldItalic";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/Lato/Lato-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "CrimsonText-Regular";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/CrimsonText/CrimsonText-Regular.ttf");
+}
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/CrimsonText/CrimsonText-Italic.ttf");
+}
+@font-face {
+  font-family: "CrimsonText-Bold";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/CrimsonText/CrimsonText-Bold.ttf");
+}
+@font-face {
+  font-family: "CrimsonText-BoldItalic";
+  src: url("/CAP/wp-content/themes/blogCathy/fonts/CrimsonText/CrimsonText-BoldItalic.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #d2dae2;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.blind {
+  z-index: -1000;
+}
+/* header */
+#stickyheader {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 0.3em 1em rgb(45, 52, 54, 0.6);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  padding-left: 1em;
+  font-family: "Lato", sans-serif;
+}
+.cross {
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+  z-index: 2;
+  font-size: 2.5em;
+  padding-left: 0.3em;
+}
+.menu-menu-hamburger-container {
+  z-index: -1;
+  font-size: 1em;
+  background: white;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+}
+.menu-menu-hamburger-container ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 2.5em;
+  list-style-type: none;
+  list-style-image: none;
+}
+.menu-menu-hamburger-container li {
+  display: block;
+  padding: 0.5em 0.5em 0.5em 1em;
+  border-bottom: #dddddd 1px solid;
+}
+.menu-menu-hamburger-container ul li a {
+  text-decoration: none;
+  margin: 0px;
+  color: inherit;
+}
+.menu-menu-hamburger-container a {
+  text-decoration: none;
+  color: #inherit;
+}
+#searchform {
+  font-family: "Lato", sans-serif;
+}
+.link-crce {
+  background-color: #ed1d32;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.3em 1em;
+  font-family: "Lato", sans-serif;
+}
+.contact-us {
+  background-color: #ed1d32;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.3em 1em;
+  font-family: "Lato", sans-serif;
+}
+.logo-reseaux-sociaux {
+  height: 2em;
+}
+.logo-contact-us {
+  height: 1.5em;
+}
+.background_default {
+  background-image: url('/CAP/wp-content/themes/blogCathy/img/cathy-senat-min.jpg');
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+.logo-bannière {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo_hda {
+  width: 20em;
+}
+.link-category-bannière {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#senat:hover {
+  color: #ed1d32;
+  font-weight: bold;
+}
+#circo:hover {
+  color: #6ab04c;
+  font-weight: bold;
+}
+.lieu {
+  text-align: center;
+  padding: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+  color : white;
+  font-size: 1em;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: solid 1px white;
+  margin: 1em 0;
+}
+h1 {
+  text-align: center;
+  margin: 4em 0 3em 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+  letter-spacing: 2px;
+}
+/* page content */
+#content {
+  width: 90%;
+  background-color: white;
+  padding: 1em;
+  margin: auto;
+}
+.title_last_actu {
+  background-color: #ed1d32;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  margin: 0.5em 0 1em 0;
+  padding: 0 0.5em;
+  text-shadow: 1px 1px 8px black;
+  font-family: "Lato-Regular", sans-serif;
+}
+.mosaic_thumbnails {
+  padding: 0.5em !important;
+  height: 15em !important;
+}
+.thumbnail_article {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mosaic_thumbnails .mosaic_title_article {
+  display: block;
+  color: white;
+  background-color: rgb(237, 29, 50, 0.7);
+  text-transform: uppercase;
+  padding: 0.1em 0.3em;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+}
+.mosaic_category_article {
+  background-color: rgb(102, 102, 153);
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  padding: 0.05em 0.3em;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+  margin: 0;
+}
+.mosaic_excerpt {
+  display: none
+}
+.title_social {
+  background-color: #8e44ad;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 1em 0 2em 0;
+  padding: 0 1em;
+  text-shadow: 1px 1px 8px black;
+  font-family: "Lato-Regular", sans-serif;
+}
+.twitter-timeline {
+  margin-top: 0 !important;
+}
+.thumbnails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cloud-tag-title-index {
+  background-color: #6ab04c;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 1em;
+  font-size: 2em;
+  margin: 2em 0.5em 1em 0.5em;
+  text-shadow: 1px 1px 8px black;
+  font-family: "Lato-Regular", sans-serif;
+}
+.wp-pagenavi {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 1.1em;
+}
+.previouspostslink {
+  margin: 0 0.5em;
+}
+.current {
+  font-weight: bold;
+  margin: 0 0.5em;
+  font-size: 1.1em;
+}
+.page {
+  margin: 0 0.5em;
+}
+.nextpostslink {
+  margin: 0 0.5em;
+}
+.cloud_tag_index {
+  padding: 0.5em;
+  text-align: center;
+}
+/* footer */
+#footer {
+  margin-top: 5em;
+  padding: 1.5em 0;
+  background-color: #657381;
+  color: black;
+}
+.container_footer {
+  max-width: 100vw !important;
+  background-color: #d2dae2;
+  box-shadow: 0.7em 1em #6ab04c;
+  margin: 0.5em;
+  padding: 0.5em 0;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+.title-footer {
+  font-family: "Lato-Regular", sans-serif;
+  line-height: 1.3em;
+}
+.chevron-footer {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ed1d32;
+}
+.row-contact-footer {
+  margin: 1em 0;
+}
+.container_logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_footer {
+  height: 2em;
+}
+.exposant {
+  position: relative;
+  bottom: 1px;
+  font-size: .8em;
+  line-height: .8em;
+  vertical-align:super;
+  text-decoration:none;
+}
+/* category.php */
+.title_category_container {
+  padding: 1em 0;
+}
+.title_category {
+  color: white;
+  background-color: #666699;
+  text-transform: uppercase;
+  padding: 0.1em 0.8em;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+}
+.postcard-container {
+  border-bottom: solid 1px black;
+}
+.postcard_category {
+  padding: 1em;
+}
+.category_thumbnail_container {
+  display: flex;
+  justify-content: center;
+}
+.category_size_thumbnail {
+  display: block;
+  height: 11em !important;
+}
+.category_title_article {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.category_content_article p {
+  text-align: justify;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+.cloud-tag-title {
+  background-color: #6ab04c;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.2em 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0.5em 1em 0.5em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.cloud-tag-category {
+  padding: 0.5em;
+  text-align: center;
+}
+/* tag.php */
+.title-tag {
+  background-color: #009432;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.2em 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em 0.5em;
+  font-family: "Lato-Bold", sans-serif;
+}
+/* Single.php */
+.post_category_article {
+  background-color: #666699;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+  padding: 0.2em 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0;
+  font-family: "Lato-Bold", sans-serif;
+}
+.post_title_article {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: "Lato-Bold", sans-serif;
+}
+.post_date {
+  font-size: 1em;
+  padding: 0.5em 0;
+  font-family: "CrimsonText-Regular", sans-serif;
+}
+.post_content_article {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.5em;
+}
+.post_content_article p {
+  margin-bottom: 1em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+}
+.col_meme_sujet {
+  margin-top: 2em;
+  border-top: solid 1px black
+}
+.title_col_meme_sujet {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: "Lato-Italic", sans-serif;
+  margin-top: 1em;
+}
+.thumbnail_meme_sujet {
+  height: 14em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em 0;
+  padding: 0 !important;
+}
+.title_thumbnail_meme_sujet {
+  display: block;
+  color: white;
+  background-color: rgb(237, 29, 50, 0.7);
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 1em;
+  padding-top: 0.05em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.cloud-tag-post {
+  padding: 0.5em 3em;
+  text-align: justify;
+}
+
+/* senatrice.php */
+.title_page_senatrice {
+  background-color: #833471;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+  margin: 1em 0;
+  padding: 0.2em 1em;
+  text-shadow: 1px 1px 8px black;
+  font-family: "Lato-Regular", sans-serif;
+}
+.info_senatrice {
+  line-height: 1.5em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+  text-align: justify;
+}
+.text_senatrice p {
+  line-height: 1.5em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+  text-align: justify;
+}
+.avatar_container_senatrice {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+/* mentions-legales.php */
+.title_mentions {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 1em 0;
+  font-family: "Lato-Bold", sans-serif;
+}
+.subtitle_mentions {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding-left: 1em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.info_mentions {
+  padding: 0em 1em 2em 2em;
+  line-height: 2em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.2em;
+  text-align: justify;
+}
+.bold {
+  font-weight: bold;
+}
+.cv_pierre_mentions:hover {
+  color: #ed1d32;
+}
+/* politics.php */
+.container_politics {
+  padding: 0 0.5em;
+}
+.title_politics {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 1em 0;
+  font-family: "Lato-Bold", sans-serif;
+}
+.text_politics {
+  line-height: 1.5em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+  text-align: justify;
+}
+.subtitle_politics {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding-left: 1em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.underline {
+  text-decoration: underline;
+}
+.title_text_politics {
+  font-size: 1.2em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.subtitle_text_politics {
+  font-size: 1.1em;
+  font-family: "Lato-Bold", sans-serif;
+}
+.link_politics {
+  color: #353b48;
+}
+.link_politics:hover{
+  color: #ed1d32;
+}
+/* Nous contacter */
+.title_contact-us {
+  background-color: #666699;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.2em 1em;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  font-family: "Lato-Bold", sans-serif;
+}
+.text_contact-us {
+  padding: 1em;
+  text-align: justify;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1em;
+}
+.text_message_sent {
+  padding: 1em;
+  text-align: justify;
+  margin-bottom: 1em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1em;
+}
+.error {
+  padding: 1em;
+  text-align: justify;
+  margin-bottom: 1em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1em;
+}
+.forms {
+  padding: 1em;
+  text-align: justify;
+  margin-bottom: 1em;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1em;
+}
+.input_contact {
+  margin-bottom: 1em;
+}
+.captcha_container {
+  padding: 1em;
+}
+.button_container {
+  padding: 1em;
+}
+.button_contact {
+  border-radius: 0.5em;
+  background-color: #ed1d32;
+  font-family: "CrimsonText-Regular", serif;
+  font-size: 1.1em;
+  color: white;
+}
+.button_contact:hover {
+  font-weight: bold;
+}

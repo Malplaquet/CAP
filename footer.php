@@ -1,7 +1,7 @@
 <div id="footer">
   <div class="container">
     <div class="row justify-content-center container_footer">
-      <div class="col-3">
+      <div class="col-10 col-md-6 col-xl-3">
         <h2 class="title-footer">Nous découvrir</h2>
         <a href="/CAP/contact-us/"><p><span class="chevron-footer">&gt;</span>Nous contacter</p></a>
         <a href="/CAP/category/mobilisation/"><p><span class="chevron-footer">&gt;</span>Nos actions locales</p></a>
@@ -10,7 +10,7 @@
         <a href="/CAP/mentions-legales/"><p><span class="chevron-footer">&gt;</span>Mentions légales</p></a>
         <a href="/CAP/politique-de-confidentialite-des-donnees/"><p><span class="chevron-footer">&gt;</span>Politique de confidentialité</p></a>
       </div>
-      <div class="col-3">
+      <div class="col-10 col-md-6 col-xl-3">
         <div class="contacts-permanence">
           <h2 class="title-footer">Permanence parlementaire</h2>
           <div class="row row-contact-footer">
@@ -40,14 +40,14 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-10 col-md-6 col-xl-3">
         <h2 class="title-footer">Le travail parlementaire</h2>
         <a href="/CAP/category/media/"><p><span class="chevron-footer">&gt;</span>Médiathèque</p></a>
         <a href="/CAP/category/interv/"><p><span class="chevron-footer">&gt;</span>Interventions au Sénat</p></a>
         <a href="/CAP/category/question/"><p><span class="chevron-footer">&gt;</span>Questions au gouvernement</p></a>
         <a href="/CAP/category/courrier/"><p><span class="chevron-footer">&gt;</span>Courriers</p></a>
       </div>
-      <div class="col-3">
+      <div class="col-10 col-md-6 col-xl-3">
         <h2 class="title-footer">Aller plus loin</h2>
         <a href="https://senateurscrce.fr/"><p><span class="chevron-footer">&gt;</span>Site du CRCE</p></a>
         <a href="http://www.senat.fr/"><p><span class="chevron-footer">&gt;</span>Site du Sénat</p></a>
@@ -60,8 +60,8 @@
 </div>
 </div>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-<script src="/CAP/wp-content/themes/blogCathy/jquery-3.3.1.js"></script>
-<script src="/CAP/wp-content/themes/blogCathy/hamburger.js"></script>
-<script src="/CAP/wp-content/themes/blogCathy/script.js"></script>
+<script src="/CAP/wp-content/themes/blogCathy/script/jquery-3.3.1.js"></script>
+<script src="/CAP/wp-content/themes/blogCathy/script/hamburger.js"></script>
+<script src="/CAP/wp-content/themes/blogCathy/script/script.js"></script>
 </body>
 </html>

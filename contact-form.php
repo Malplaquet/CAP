@@ -90,7 +90,7 @@ if(isset($_POST['submitted'])) {
 			<form action="<?php the_permalink(); ?>" id="contactForm" method="post">
 				<div class="forms">
 					<div class="row justify-content-center">
-						<div class="col-6 text-center">
+						<div class="col-xl-6 col-10 text-center">
 							<p for="contactName">Nom et Prénom</p>
 							<input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="requiredField input_contact" />
 							<?php if($nameError != '') { ?>
@@ -99,7 +99,7 @@ if(isset($_POST['submitted'])) {
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-6 text-center">
+						<div class="col-xl-6 col-10 text-center">
 							<p for="email">E-mail</p>
 							<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="requiredField email input_contact" />
 							<?php if($emailError != '') { ?>
@@ -108,7 +108,7 @@ if(isset($_POST['submitted'])) {
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-6 text-center">
+						<div class="col-xl-6 col-10 text-center">
 							<p for="object">Objet du message</p>
 							<input type="text" name="object" id="object" value="<?php if(isset($_POST['object']))  echo $_POST['object'];?>" class="requiredField input_contact" />
 							<?php if($objectError != '') { ?>
@@ -117,9 +117,9 @@ if(isset($_POST['submitted'])) {
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-6 text-center">
+						<div class="col-xl-6 col-10 text-center">
 							<p for="commentsText">Message</p>
-							<textarea name="comments" id="commentsText" rows="10" cols="40" class="requiredField input_contact"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+							<textarea name="comments" id="commentsText" rows="10" cols="30" class="requiredField input_contact"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
 							<?php if($commentError != '') { ?>
 								<span class="error"><?=$commentError;?></span>
 							<?php } ?>

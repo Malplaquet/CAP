@@ -14,13 +14,13 @@ get_header();
       <?php
       $query = new WP_Query(array('posts_per_page' => 8, 'orderby' => 'date', 'order' => 'DESC' ));
       if (have_posts()) : while (have_posts()) : the_post();?>
-      <div class="col-6 postcard_category">
+      <div class="col-xl-6 col-12 postcard_category">
         <a class="category_content_article" href="<?php the_permalink(); ?>">
           <div class="row">
-            <div class="col-6">
+            <div class="col-xl-6 col-12">
               <img class="img-fluid" src="<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-xl-6 col-12">
               <span class="category_title_article"><?php the_title(); ?></span>
             </div>
           </div>

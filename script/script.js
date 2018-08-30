@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
   circo.addEventListener("mouseleave", function (event) {
     page.classList.remove("background_circo");
   })
+
 }
 )

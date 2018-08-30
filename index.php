@@ -23,7 +23,7 @@ get_header();
             $categoriesName[] = $category->name;
           }
           ?>
-          <div class="col-4 mosaic_thumbnails">
+          <div class="col-12 col-md-4 col-xl-4 mosaic_thumbnails">
             <a href="<?php the_permalink(); ?>">
               <div class="thumbnail_article" style="background-image: url('<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>')">
                 <p class="mosaic_category_article"><?= implode( ' | ',$categoriesName); ?></p>
@@ -47,14 +47,14 @@ get_header();
       <p class="title_social">Sur les réseaux sociaux</p>
     </div>
     <div class="row justify-content-center">
-      <div class="col-5">
+      <div class="col-12 col-md-5 col-xl-5">
         <div class="fb-page" data-href="https://www.facebook.com/CathyApourceauPolySenatrice/" data-tabs="timeline" data-width="400" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <blockquote cite="https://www.facebook.com/CathyApourceauPolySenatrice/" class="fb-xfbml-parse-ignore">
             <a href="https://www.facebook.com/CathyApourceauPolySenatrice/">Cathy Apourceau Poly, Sénatrice du Pas-de-Calais</a>
           </blockquote>
         </div>
       </div>
-      <div class="col-5">
+      <div class="col-12 col-md-5 col-xl-5">
         <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/Apourceau?ref_src=twsrc%5Etfw">Tweets by Apourceau</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
         </script>
@@ -62,7 +62,7 @@ get_header();
     </div>
     <div class="row cloud-tag-container justify-content-center">
       <p class="cloud-tag-title-index">Retrouvez nos articles par étiquettes</p>
-      <div class="cloud-tag-category">
+      <div class="cloud_tag_index">
         <?php
         $argsCloudTag = array(
           'smallest' => 12,

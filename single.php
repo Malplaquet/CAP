@@ -15,7 +15,7 @@ get_header();
   ?>
   <div class="container">
     <div class="row">
-      <div class="col-xl-8 col-12">
+      <div class="col-xl-8 col-md-8 col-12">
         <p class="post_category_article"><?= implode( ' | ',$categoriesName); ?></p>
         <div id="post-<?php the_ID(); ?>" class="post_title_article">
           <?php the_title(); ?>
@@ -29,7 +29,7 @@ get_header();
     endif;
     ?>
   </div>
-  <div class="col-xl-4 col-12 justify-content-center col_meme_sujet">
+  <div class="col-xl-4 col-md-4 col-12 justify-content-center col_meme_sujet">
     <div class="row">
       <div class="col-12">
         <p class="title_col_meme_sujet">Sur le même sujet :</p>

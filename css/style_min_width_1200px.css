@@ -223,6 +223,7 @@ h1 {
   position: relative;
   display: block;
   padding: 0.5em !important;
+  height: auto !important;
 }
 .mosaic_thumbnails .mosaic_title_article {
   opacity: 0;
@@ -260,6 +261,7 @@ h1 {
   font-family: "Lato-Bold", sans-serif;
 }
 .mosaic_excerpt {
+  display: block;
   position: absolute;
   background-color: rgb(255, 255, 255, 0.7);
   color: black;

@@ -18,13 +18,13 @@ get_header();
     </div>
     <div class="row align-items-center postcard-container">
       <?php if (have_posts()) : while (have_posts()) : the_post();?>
-        <div class="col-xl-6 col-12 postcard_category">
+        <div class="col-xl-6 col-md-6 col-12 postcard_category">
           <a class="category_content_article" href="<?php the_permalink(); ?>">
             <div class="row">
-              <div class="col-xl-6 col-12 category_thumbnail_container">
+              <div class="col-xl-6 col-md-6 col-12 category_thumbnail_container">
                 <img class="img-fluid category_size_thumbnail " src="<?= esc_url(get_the_post_thumbnail_url($post->ID)) ?>" alt="">
               </div>
-              <div class="col-xl-6 col-12">
+              <div class="col-xl-6 col-md-6 col-12">
                 <div class="category_title_article"><?php the_title(); ?></div>
               </div>
             </div>
@@ -36,7 +36,7 @@ get_header();
     endif;
     ?>
   </div>
-  <div class="row">
+  <div class="row justify-content-center">
     <?php
     wp_pagenavi();
     wp_reset_postdata();

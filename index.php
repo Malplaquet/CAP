@@ -47,14 +47,14 @@ get_header();
       <p class="title_social">Sur les réseaux sociaux</p>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-md-5 col-xl-5">
+      <div class="col-12 col-md-5 col-xl-5 fb_col">
         <div class="fb-page" data-href="https://www.facebook.com/CathyApourceauPolySenatrice/" data-tabs="timeline" data-width="400" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <blockquote cite="https://www.facebook.com/CathyApourceauPolySenatrice/" class="fb-xfbml-parse-ignore">
             <a href="https://www.facebook.com/CathyApourceauPolySenatrice/">Cathy Apourceau Poly, Sénatrice du Pas-de-Calais</a>
           </blockquote>
         </div>
       </div>
-      <div class="col-12 col-md-5 col-xl-5">
+      <div class="col-12 col-md-5 col-xl-5 twitter_col">
         <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/Apourceau?ref_src=twsrc%5Etfw">Tweets by Apourceau</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
         </script>

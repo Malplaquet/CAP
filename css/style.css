@@ -78,9 +78,6 @@ a:hover {
   width: 100%;
   z-index: 100;
 }
-.hamburger_container{
-  display: block;
-}
 @media screen and (orientation: portrait) {
   .hamburger{
     position: absolute;

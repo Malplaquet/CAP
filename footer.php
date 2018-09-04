@@ -29,6 +29,14 @@
               <span>03&middot;21&middot;08&middot;12&middot;14</span>
             </div>
           </div>
+          <div class="row row-contact-footer">
+            <div class="col-2 container_logo_footer">
+                <img class="logo_footer" src="/CAP/wp-content/themes/blogCathy/img/mobile_phone.svg" alt="logo d'un smartphone de couleur noir">
+            </div>
+            <div class="col-10 align-items-center">
+              <span>06&middot;10&middot;32&middot;41&middot;90</span>
+            </div>
+          </div>
           <h2 class="title-footer">Sénat</h2>
           <div class="row row-contact-footer">
             <div class="col-2 container_logo_footer">
@@ -49,6 +57,7 @@
       </div>
       <div class="col-10 col-md-6 col-xl-3">
         <h2 class="title-footer">Aller plus loin</h2>
+        <a href="https://www.senat.fr/senateur/apourceau_poly_cathy19760e.html"><p><span class="chevron-footer">&gt;</span>Page de Cathy Apourceau-Poly</p></a>
         <a href="https://senateurscrce.fr/"><p><span class="chevron-footer">&gt;</span>Site du CRCE</p></a>
         <a href="http://www.senat.fr/"><p><span class="chevron-footer">&gt;</span>Site du Sénat</p></a>
         <a href="http://www.communistes-republicains-partidegauche.assemblee-nationale.fr/"><p><span class="chevron-footer">&gt;</span>Site du GDR</p></a>

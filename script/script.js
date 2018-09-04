@@ -21,3 +21,13 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 }
 )
+
+$( document ).ready(function() {
+
+$( ".div_cookies").show();
+$( ".ok_div_cookies").click(function() {
+$( ".div_cookies").slideToggle( "slow", function() {
+$( ".div_cookies").hide();
+});
+});
+});

@@ -1,4 +1,3 @@
-<!-- SUPPRIMER TOUS LES /CAP lors de la mise en ligne-->
 <?php
 get_header();
 ?>

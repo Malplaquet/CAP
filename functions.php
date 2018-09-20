@@ -1,4 +1,9 @@
 <?php
+// initialisation de CiviCRM pour activer l'interprétation des shortcodes
+// $civi = civi_wp();
+// $civi->initialize();
+// $this->civi->initialize();
+
 $args = array(
 'name' => 'Home top sidebar',
 'id' => 'top-nav',

@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Site de Cathy Apourceau-Poly, sénatrice du Pas-de-Calais, membre du Groupe Communiste, Républicain, Citoyen et Écologiste au Sénat. Ce site relai le travail parlementaire de Cathy Apourceau-Poly.">
+  <meta name="author" content="Cathy Apourceau-Poly"
+  <meta name="keywords" content="Cathy Apourceau-Poly, sénat, senat, parlement, République Française, France, travail parlementaire, communiste, pcf, CRCE, groupe communiste républicain citoyen et écologiste, communiste républicain citoyen et écologiste, républicain, citoyen, écologiste, Pas-de-Calais, 62, pdc, Pas de Calais, pas de calais">
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">

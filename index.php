@@ -1,9 +1,9 @@
 <?php
-setcookie("token", "value", time()+60*60*24*365);
+//setcookie("token", "value", time()+60*60*24*365);
 get_header();
 if (!isset($_COOKIE['token'])) {
   $divCookie = "<div class=\"div_cookies\">
-    <p>Nous utilisons des cookies pour améliorer votre expérience d'utilisateur sur notre site. En poursuivant votre navigation, nous considérons que vous accepter la présence de ces cookies et l'utilisation qui en est faite. Pour plus d'informations, rendez-vous sur la page de Politique de confidentialité.<span class=\"ok_div_cookies\">OK</span><span class=\"politics_div_cookies\"><a href=\"/CAP/politics/\">Politique de confidentialité</a></span></p>
+    <p>Nous utilisons des cookies pour améliorer votre expérience d'utilisateur sur notre site. En poursuivant votre navigation, nous considérons que vous accepter la présence de ces cookies et l'utilisation qui en est faite. Pour plus d'informations, rendez-vous sur la page de Politique de confidentialité.<span class=\"ok_div_cookies\">OK</span><span class=\"politics_div_cookies\"><a href=\"/CAP/politique-de-confidentialite-des-donnees/\">Politique de confidentialité</a></span></p>
   </div>";
 }
 echo $divCookie;
